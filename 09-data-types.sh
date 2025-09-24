@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# everything in shell is considerd as string
 NUMBER1=100
 NUMBER2=200
 NAME=DevOps
@@ -12,5 +13,5 @@ echo "SUM is: ${SUM}"
 LEADERS=("Modi" "Putin" "Trudo" "Trump")
 
 echo "All leaders: ${LEADERS[@]}"
-echo "First leader: ${LEADER[0]}"
-echo "First leader: ${LEADER[10]}"
+echo "First Leader: ${LEADERS[0]}"
+echo "First Leader: ${LEADERS[10]}"
